@@ -51,7 +51,7 @@ export default function ResponsiveHeader() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Image
-              src="/base/utahgrownlogowhiteborder.svg"
+              src="base/utahgrownlogowhiteborder.svg"
               alt="Logo"
               width={100}
               height={48}
