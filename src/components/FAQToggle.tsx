@@ -15,11 +15,12 @@ const faqData = [
 ];
 
 export default function FAQToggle() {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  const toggleIndex = (index) => {
+
+const toggleIndex = (index: number): void => {
     setOpenIndex(openIndex === index ? null : index);
-  };
+};
 
   return (
     <div className="mx-auto max-w-6xl py-8">
